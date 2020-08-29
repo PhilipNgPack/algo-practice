@@ -1,5 +1,5 @@
 #include <iostream>
-
+//800
 bool charChecker(const char &c, char (&arr)[26], uint8_t currentIndex) {
     for (int i = 0; i < currentIndex; ++i) {
         if (c == arr[i]) {

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-
+//800
 int main() {
 
     int k, n, w;
