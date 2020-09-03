@@ -26,4 +26,5 @@ int main() {
     for (const auto &i: finalPrices(prices)) {
         std::cout << i << std::endl;
     }
+
 }
