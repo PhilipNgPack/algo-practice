@@ -4,11 +4,11 @@
 
 #include <iostream>
 #include <vector>
-
+// bad: this solution double checks the same index that found a target value
 int removeElement(std::vector<int> &nums, int val) {
 
     for(int i = 0; i < nums.size(); i++) {
-        if (nums.at(i) == val) {
+        if (nums[i] == val) {
             nums.erase(nums.begin() + i);
             i--;
         }
