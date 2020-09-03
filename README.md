@@ -1,4 +1,4 @@
-#Algo practice
+# Algo practice
 
 This repo contains my solutions to various problems found on codeforces and leetcode
 
