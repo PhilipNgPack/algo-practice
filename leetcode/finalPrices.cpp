@@ -4,7 +4,9 @@
 
 #include <iostream>
 #include <vector>
-
+// this method is slow because of the double for loop. A more efficient solution might be to add
+// a second vector that stores ints. In addition, using .pop_back, .back(), and .push_back() would
+// be beneficial
 std::vector<int> finalPrices(std::vector<int> &prices) {
 
     for (int i = 0; i < prices.size(); i++) {
