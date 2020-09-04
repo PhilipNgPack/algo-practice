@@ -10,4 +10,5 @@ add_executable(buyingFoods codeforces/buyingFoods.cpp)
 
 add_executable(romanToInteger romanToInteger.cpp)
 add_executable(removeElement leetcode/removeElement.cpp)
-add_executable(finalPrices finalPrices.cpp)
+add_executable(finalPrices leetcode/finalPrices.cpp)
+add_executable(heightChecker heightChecker.cpp)
